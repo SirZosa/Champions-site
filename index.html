@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>We are the Champions</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="presentation">
+            <img src="/assets/freddie.png" alt="freddie logo">
+            <h1>We are the Champions</h1>
+        </div>
+        <div class="form">
+            <form>
+                <textarea name="" id="message" placeholder="Write your endorsement here" required></textarea>
+                <div>
+                    <input type="text" id="from" placeholder="From" required>
+                    <input type="text" id="to" placeholder="To" required>
+                </div>
+                <button id="publish" type="button">Publish</button>
+            </form>
+        </div>
+        <div id="posts">
+            <h3>- Endorsements -</h3>
+            <div class="card" id="card"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js'
+    
+        // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+        import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js'
+    
+        // Add Firebase products that you want to use
+        import { getAuth } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js'
+        import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.js'
+      </script>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>

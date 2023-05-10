@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    font-family: Josefin Sans, sans-serif;
+}
+
+.container {
+    width: 390px;
+    margin: 0 auto;
+
+}
+
+.presentation{
+    color: #ffffff;
+    text-align: center;
+}
+
+.presentation img{
+    width: 120px;
+    margin-top: 50px;
+}
+
+.form {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.form textarea {
+    background-color: #444059;
+    border-style: none;
+    border-radius: 8px;
+    resize: none;
+    width: 286px;
+    height: 100px;
+    padding: 10px 20px;
+    color: #E5E7EB;
+}
+
+.form input{
+    padding: 0;
+    margin: 4px 2px;
+    background-color: #444059;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    color: #E5E7EB;
+}
+
+.form button{
+    border-style: none;
+    background-color: #28A9F1;
+    width: 326px;
+    border-radius: 8px;
+    height: 60px;
+    margin-top: 4px;
+    font-size: 22px;
+}
+
+.form button:hover{
+    transform: scale(1.01);
+}
+
+.form button:active{
+    transform: scale(0.99);
+}
+
+#posts h3 {
+    text-align: center;
+    color: #FFFFFF;
+}
+.card {
+    margin: 0 auto;
+    color: #1B1924;
+    width: 326px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.card div{
+    background-color: #FFFFFF;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.card div div{
+    padding: 0;
+}
+
+.card h5, h6{
+    padding: 5px 0;
+    font-size: 14px;
+    margin: 0;
+}
+
+.card p{
+    font-size: 14px;
+    margin: 3px;
+}
+
+.card-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+#likes {
+    user-select: none;
+}
